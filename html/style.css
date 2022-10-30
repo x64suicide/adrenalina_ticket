@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+
+html, body {
+
+    width: 100%;
+
+    height: 100%;
+
+    user-select: none;
+
+    --green: #7fdf3f;
+
+    --pink: #c4145a;
+
+}
+
+
+
+html {
+
+    font-size: 62.5%;
+
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+
+    font-size: 1.6rem;
+    
+    font-family: 'Bai Jamjuree', sans-serif;
+
+    background: url('xcz.png');
+
+    
+
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+
+    font-weight: 400;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.05em;
+
+    margin-top: 0.4rem;
+
+    font-family: 'Bai Jamjuree', sans-serif;
+
+    margin-bottom: 0.4rem;
+
+}
+
+
+
+
+
+::-webkit-scrollbar {
+
+    display: none;
+
+}
+
+
+
+.ui {
+
+    /* display: none; */
+
+    width: 100%;
+
+    height: 100%;
+
+    margin: auto;
+
+    opacity: 1;
+
+}
+/** WATERMARK **/
+
+
+
+
+.watermark {
+    display: block;
+    opacity: 1;
+    position: absolute;
+    top: 3%;
+    right: 1%;
+    transform: translate(-1%, -1%);
+}
+
+p22{
+    font-size: 14px;
+
+}
+
+.watermark .watermark--container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+
+.watermark .watermark--container .main--info {
+    display: block;
+    margin: 0 10px 0 0;
+}
+
+
+.watermark .watermark--container .main--info h2.title {
+    margin: -4px;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    line-height: 1.6;
+}
+
+
+.watermark .watermark--container .main--info span.subtitle {
+    font-size: 13px;
+    font-weight: 680;
+    color: rgb(192, 192, 192);
+    text-align: center;
+    line-height: 1.;
+}
+
+
+.watermark .watermark--container .main--logo {
+    display: block;
+    margin: 0 15px 0 0;
+}
+
+
+.watermark .watermark--container .main--logo img {
+    max-width: 50px;
+}
+
+.watermark .watermark--container .main--id span.id {
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    color: #fff;
+
+} 
+
+.watermark .watermark--container>#player-counter {
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: -50px;
+}
+
+.player-counter {
+    color:white;
+    font-size: 20px;
+}
